@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+#colorDisplay {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+}
+#favoriteColors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.colorBox {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+.colorBox span {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 2px 5px;
+    font-size: 12px;
+}
+.colorBox button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    cursor: pointer;
+}
